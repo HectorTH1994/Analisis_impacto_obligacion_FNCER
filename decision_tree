@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Oferta_interna <= 139.515\nsquared_error = 931.804\nsamples = 320\nvalue = 226.852"] ;
+1 [label="max_precio_bolsa_ipp <= 6.742\nsquared_error = 381.67\nsamples = 155\nvalue = 207.028"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Cantidad de energía adjudicada GWh <= 716.365\nsquared_error = 247.023\nsamples = 144\nvalue = 210.414"] ;
+1 -> 2 ;
+3 [label="squared_error = 229.762\nsamples = 122\nvalue = 212.999"] ;
+2 -> 3 ;
+4 [label="squared_error = 100.159\nsamples = 22\nvalue = 196.078"] ;
+2 -> 4 ;
+5 [label="Cantidad de energía adjudicada GWh <= 8395.019\nsquared_error = 30.27\nsamples = 11\nvalue = 162.711"] ;
+1 -> 5 ;
+6 [label="squared_error = 17.949\nsamples = 8\nvalue = 164.932"] ;
+5 -> 6 ;
+7 [label="squared_error = 14.869\nsamples = 3\nvalue = 156.787"] ;
+5 -> 7 ;
+8 [label="Oferta_interna <= 170.155\nsquared_error = 732.616\nsamples = 165\nvalue = 245.475"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="dias_contrato <= 1747.0\nsquared_error = 422.166\nsamples = 114\nvalue = 235.629"] ;
+8 -> 9 ;
+10 [label="squared_error = 144.329\nsamples = 27\nvalue = 249.767"] ;
+9 -> 10 ;
+11 [label="squared_error = 427.113\nsamples = 87\nvalue = 231.242"] ;
+9 -> 11 ;
+12 [label="dias_contrato <= 614.5\nsquared_error = 725.501\nsamples = 51\nvalue = 267.484"] ;
+8 -> 12 ;
+13 [label="squared_error = 558.476\nsamples = 6\nvalue = 311.478"] ;
+12 -> 13 ;
+14 [label="squared_error = 455.289\nsamples = 45\nvalue = 261.618"] ;
+12 -> 14 ;
+}

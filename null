@@ -1,0 +1,14 @@
+Mejores parámetros encontrados: {'alpha': 0.1, 'l1_ratio': 0.1}
+MSE utilizando validación cruzada: 685.8545169547918
+Mejores parámetros encontrados: {'alpha': 0.1, 'l1_ratio': 0.1}
+MSE utilizando validación cruzada: 685.8545169547918
+Mejores parámetros encontrados: {'alpha': 0.1, 'l1_ratio': 0}
+MSE utilizando validación cruzada: 685.0255270802747
+Mejores parámetros encontrados: {'alpha': 0.1, 'l1_ratio': 0}
+MSE utilizando validación cruzada: 685.0255270802747
+Mejores parámetros encontrados: {'alpha': 0.1, 'l1_ratio': 0}
+MSE utilizando validación cruzada: 685.0255270802747
+Mejores parámetros encontrados: {'alpha': 0.1, 'l1_ratio': 0}
+MSE utilizando validación cruzada: 685.0255270802747
+Mejores parámetros encontrados: {'alpha': 0.1, 'l1_ratio': 0}
+MSE utilizando validación cruzada: 685.0255270802747
